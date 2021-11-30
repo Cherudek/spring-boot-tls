@@ -1,0 +1,13 @@
+server:
+    ssl:
+      key-alias: ExampleCertificate
+      key-store-type: AzureKeyVault
+      trust-store-type: AzureKeyVault
+    port: 8443
+azure:
+    keyvault:
+      uri: https://spring-boot-key.vault.azure.net
+logging:
+  level:
+    root: DEBUG
+    com.example: DEBUG
